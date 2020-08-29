@@ -1,0 +1,122 @@
+@font-face{
+	font-family: fallout;
+	src: url("fallout.ttf");
+}
+
+body {
+
+	font-family: sans-serif;
+
+	overflow: hidden;
+
+	display: none;
+
+}
+
+
+
+.dialog {
+
+	width: 600px;
+
+	height: 400px;
+
+	position: absolute;
+
+	margin-left: auto;
+
+	margin-right: auto;
+
+	left: 0;
+
+	right: 0;
+
+	padding: 10px;
+
+	box-shadow: 0px 0px 50px 0px #000;
+
+	background-color: #f1f1f1;
+
+	overflow: hidden;
+
+	opacity: 0.9;
+
+	background: linear-gradient(to bottom right ,rgb(50, 9, 66), rgb(82, 12, 12), rgb(19, 19, 54));
+
+}
+
+
+
+input[type=text] {
+
+	width: 60%;
+
+	padding: 7px;
+
+	margin: 10px 20%;
+
+	text-align: center;
+
+}
+
+
+
+button {
+
+	display: block;
+
+	margin-top: -30px;
+
+	padding: 10px;
+
+	background-color: #56ce11;
+
+	border: 0;
+
+	color: #fff;
+
+	border-radius: 30px;
+
+	font-size: 30px;
+
+	float: right;
+
+	width: 8%;
+
+}
+
+
+
+h1 {
+
+	display: block;
+
+	margin-top: 5px;
+
+	margin-right: 5px;
+
+	padding: 10px;
+
+	background-color: #2a2a2b;
+
+	color: #fff;
+
+	width: 93%;
+
+	text-align: center;
+
+	clip-path: polygon(0% 0, 100% 0%, 85% 100%, 0 100%);
+}
+
+center{
+	padding-top: 20px;
+	margin: 5px 20%;
+	padding-bottom: 20px;
+	background-color: rgba(66, 66, 66, 0.603);
+	border: 5px solid;
+	border-color: rgba(0, 0, 0, 0.897);
+}
+
+p{
+	font-family: fallout;
+}
